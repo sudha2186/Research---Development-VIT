@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% set active = 'analysis' %}
+{% block title %}Department Analysis - VIT{% endblock %}
+{% block content %}
+<h1>🔒 Department Analysis <span style="font-size:0.9rem; color:#888; font-weight:normal;">(Admin / HOD only)</span></h1>
+
+<div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; margin-bottom:1.5rem; gap:1rem;">
+    <div>
+        {% if locked_dept %}
+        <p style="color:#555;">Showing data for your department: <strong>{{ locked_dept }}</strong></p>
+        {% else %}
+        <div class="search-box" style="margin-bottom:0;">
+            <select id="deptSelect" onchange="loadAnalysis()" style="max-width:320px;">
+                <option value="">All Departments</option>
+                {% for d in departments %}
+                <option value="{{ d }}">{{ d }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        {% endif %}
+    </div>
+    <div>
+        <button onclick="exportCSV()" class="btn btn-outline" style="font-size:0.9rem;">📥 Export CSV</button>
+    </div>
+</div>
+
+<div id="analysisContent"><div class="spinner">Loading...</div></div>
+
+<script>const lockedDept = {{ locked_dept|tojson }};</script>
+<script src="{{ url_for('static', filename='js/department-analysis.js') }}"></script>
+{% endblock %}

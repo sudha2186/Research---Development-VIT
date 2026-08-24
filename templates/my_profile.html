@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% set active = 'myprofile' %}
+{% block title %}My Profile - VIT{% endblock %}
+{% block content %}
+<h1>👤 My Profile</h1>
+<p style="color:#555; margin-bottom:1.5rem;">{{ entry.get('name', current_user.name) }} — add publications Google Scholar may have missed.</p>
+
+<div class="metrics-row">
+    <div class="metric-box"><div class="metric-value">{{ entry.get('cited_by', '—') }}</div><div class="metric-label">📈 Citations</div></div>
+    <div class="metric-box"><div class="metric-value">{{ entry.get('hindex', '—') }}</div><div class="metric-label">📊 h-index</div></div>
+    <div class="metric-box"><div class="metric-value">{{ pubs|length }}</div><div class="metric-label">📄 Total Publications</div></div>
+</div>
+
+<h2>➕ Add a Publication</h2>
+<div class="profile-card" style="display:block;">
+    <form method="POST">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1rem;">
+            <div style="grid-column: span 2;">
+                <label style="display:block; margin-bottom:6px; font-weight:600;">Title *</label>
+                <input type="text" name="title" required style="width:100%; padding:10px 14px; border:2px solid #ccd; border-radius:8px;">
+            </div>
+            <div>
+                <label style="display:block; margin-bottom:6px; font-weight:600;">Year</label>
+                <input type="text" name="year" placeholder="2026" style="width:100%; padding:10px 14px; border:2px solid #ccd; border-radius:8px;">
+            </div>
+            <div>
+                <label style="display:block; margin-bottom:6px; font-weight:600;">Journal / Venue</label>
+                <input type="text" name="journal" style="width:100%; padding:10px 14px; border:2px solid #ccd; border-radius:8px;">
+            </div>
+            <div style="grid-column: span 2;">
+                <label style="display:block; margin-bottom:6px; font-weight:600;">Link (optional)</label>
+                <input type="url" name="url" placeholder="https://..." style="width:100%; padding:10px 14px; border:2px solid #ccd; border-radius:8px;">
+            </div>
+        </div>
+        <button type="submit" class="btn">Add Publication</button>
+    </form>
+</div>
+<p style="font-size:0.82rem; color:#888; margin:0.6rem 0 1.5rem;">
+    ℹ️ Manually added papers are tagged <strong>"✍️ Added manually"</strong> on your profile, and the admin is notified automatically.
+</p>
+
+<h2>📄 My Publications</h2>
+<table>
+    <thead><tr><th>#</th><th>Title</th><th>Year</th><th>Journal</th><th>Source</th><th></th></tr></thead>
+    <tbody>
+    {% for p in pubs %}
+        <tr>
+            <td>{{ loop.index }}</td>
+            <td>{% if p.url %}<a href="{{ p.url }}" target="_blank">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</td>
+            <td>{{ p.year }}</td>
+            <td style="color:#555; font-size:0.85rem;">{{ p.journal or '—' }}</td>
+            <td>
+                {% if p.source == 'manual' %}
+                    <span style="background:#fff3cd; color:#856404; padding:2px 8px; border-radius:6px; font-size:0.78rem; font-weight:600;">✍️ Added manually</span>
+                {% else %}
+                    <span style="background:#d1ecf1; color:#0c5460; padding:2px 8px; border-radius:6px; font-size:0.78rem; font-weight:600;">🎓 Google Scholar</span>
+                {% endif %}
+            </td>
+            <td>
+                {% if p.source == 'manual' %}
+                <form method="POST" action="{{ url_for('delete_my_publication', pub_id=p.manual_id) }}" onsubmit="return confirm('Remove this publication?');">
+                    <button type="submit" class="btn btn-outline" style="padding:4px 10px; font-size:0.75rem;">Remove</button>
+                </form>
+                {% endif %}
+            </td>
+        </tr>
+    {% else %}
+        <tr><td colspan="6" style="text-align:center; color:#888;">No publications yet.</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

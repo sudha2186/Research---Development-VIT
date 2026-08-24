@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% set active = 'metrics' %}
+{% block title %}Impact Metrics - VIT{% endblock %}
+{% block content %}
+<h1>📊 Impact Metrics by Department</h1>
+<p style="color:#555; margin-bottom:1.5rem;">Research performance overview across all departments.</p>
+
+<div style="background:#fff; border-radius:14px; padding:1.5rem; box-shadow:0 4px 14px rgba(0,0,0,0.08); margin-bottom:2rem;">
+    <canvas id="metricsChart" height="100"></canvas>
+</div>
+
+<h2>📋 Detailed Metrics Table</h2>
+<div style="margin-top:1rem;">
+    <table id="metricsTable" style="display:none;">
+        <thead>
+            <tr>
+                <th>Department</th>
+                <th>Publications</th>
+                <th>Citations</th>
+                <th>Crossref Citations</th>
+                <th>h-index</th>
+            </tr>
+        </thead>
+        <tbody id="metricsBody"></tbody>
+    </table>
+    <div class="spinner" id="tableSpinner">Loading...</div>
+</div>
+
+<script src="{{ url_for('static', filename='js/impact-metrics.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% set active = 'home' %}
+{% block title %}VIT Research Portal - Home{% endblock %}
+{% block content %}
+<h1>🎓 Welcome to the Faculty Research Portal</h1>
+<p style="color:#555; font-size:1.05rem;">Vidyalankar Institute of Technology — Research & Publications Dashboard</p>
+
+<div class="card-grid">
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="Faculty">
+        <h3>Faculty Profiles</h3>
+        <p>Browse research profiles, citations, and scholarly work of faculty members.</p>
+        <a href="{{ url_for('faculty_profiles') }}" class="btn">View Profiles</a>
+    </div>
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Metrics">
+        <h3>Impact Metrics</h3>
+        <p>Explore department-wise citation count, h-index, and publication stats.</p>
+        <a href="{{ url_for('impact_metrics') }}" class="btn">View Metrics</a>
+    </div>
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3652/3652287.png" alt="Department">
+        <h3>Department</h3>
+        <p>Browse department-wise faculty and their research contributions.</p>
+        <a href="{{ url_for('department') }}" class="btn">View Department</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% set active = 'login' %}
+{% block title %}Login - VIT Research Portal{% endblock %}
+{% block content %}
+<h1>🔐 Login</h1>
+<p style="color:#555; margin-bottom:1.5rem;">Use your VIT email and college password.</p>
+
+<div class="profile-card" style="max-width:420px; margin:0 auto; display:block;">
+    <form method="POST" action="{{ url_for('auth.login') }}">
+        <div style="margin-bottom:1rem;">
+            <label style="display:block; margin-bottom:6px; font-weight:600; color:#333;">Email</label>
+            <input type="email" name="email" required placeholder="yourname@vit.edu.in"
+                   style="width:100%; padding:10px 14px; border:2px solid #ccd; border-radius:8px; font-size:1rem;">
+        </div>
+        <div style="margin-bottom:1.5rem;">
+            <label style="display:block; margin-bottom:6px; font-weight:600; color:#333;">Password</label>
+            <input type="password" name="password" required placeholder="••••••••"
+                   style="width:100%; padding:10px 14px; border:2px solid #ccd; border-radius:8px; font-size:1rem;">
+        </div>
+        <button type="submit" class="btn" style="width:100%;">Log In</button>
+    </form>
+</div>
+
+<div style="max-width:420px; margin:1.5rem auto 0; font-size:0.9rem; color:#666; text-align:center;">
+    Don't have an account? <a href="{{ url_for('auth.register') }}" style="color:#004080; font-weight:600;">Register</a>
+</div>
+
+<div style="max-width:520px; margin:1rem auto 0; font-size:0.82rem; color:#888; text-align:center; line-height:1.5;">
+    <strong>Demo accounts (Password: <code>Admin@123</code> / <code>Hod@123</code> / <code>Faculty@123</code> / <code>Student@123</code>):</strong><br>
+    Admin: <code>admin@vit.edu.in</code> &nbsp;·&nbsp; Student: <code>student@vit.edu.in</code><br>
+    HODs: <code>hod.biomedical@vit.edu.in</code>, <code>hod.cmpn@vit.edu.in</code>, <code>hod.excs@vit.edu.in</code>, <code>hod.it@vit.edu.in</code>, <code>hod.entc@vit.edu.in</code>
+</div>
+{% endblock %}

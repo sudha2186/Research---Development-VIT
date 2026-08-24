@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% set active = 'department' %}
+{% block title %}Department - VIT{% endblock %}
+{% block content %}
+<h1>📚 Department-wise Research Overview</h1>
+<p style="color:#555; margin-bottom:1.5rem;">Vidyalankar Institute of Technology</p>
+
+<div class="search-box">
+    <select id="deptSelect" onchange="loadDepartment()" style="max-width:320px;">
+        {% for dept in departments %}
+        <option value="{{ dept }}">{{ dept }}</option>
+        {% endfor %}
+    </select>
+</div>
+
+<div id="deptContent">
+    <div class="spinner">Loading...</div>
+</div>
+
+<script src="{{ url_for('static', filename='js/department.js') }}"></script>
+{% endblock %}

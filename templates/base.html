@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}VIT Research Portal{% endblock %}</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+<nav class="navbar">
+    <a href="{{ url_for('home') }}"><img src="https://cdn.prod.website-files.com/681bb5b264e600d25933af1b/685ea5fc390c7539720c32c2_VIT-copy-1-1.png" class="navbar-logo" alt="VIT"></a>
+    <div class="navbar-menu">
+        <a href="{{ url_for('home') }}" {% if active == 'home' %}class="active"{% endif %}>Home</a>
+        <a href="{{ url_for('faculty_profiles') }}" {% if active == 'profiles' %}class="active"{% endif %}>Profiles</a>
+        <a href="{{ url_for('department') }}" {% if active == 'department' %}class="active"{% endif %}>Department</a>
+        <a href="{{ url_for('impact_metrics') }}" {% if active == 'metrics' %}class="active"{% endif %}>Impact Metrics</a>
+
+        {% if current_user.is_authenticated and current_user.role in ['admin', 'hod'] %}
+        <a href="{{ url_for('department_analysis') }}" {% if active == 'analysis' %}class="active"{% endif %}>Department Analysis</a>
+        <a href="{{ url_for('monthly_report_page') }}" {% if active == 'reports' %}class="active"{% endif %}>Monthly Report</a>
+        {% endif %}
+
+        {% if current_user.is_authenticated and current_user.role == 'faculty' %}
+        <a href="{{ url_for('my_profile') }}" {% if active == 'myprofile' %}class="active"{% endif %}>My Profile</a>
+        {% endif %}
+
+        {% if current_user.is_authenticated and current_user.role == 'admin' %}
+        <a href="{{ url_for('admin_notifications') }}" {% if active == 'notifications' %}class="active"{% endif %}>
+            🔔 Notifications{% if unread_notifications and unread_notifications > 0 %}<span class="badge-count">{{ unread_notifications }}</span>{% endif %}
+        </a>
+        {% endif %}
+
+        {% if current_user.is_authenticated %}
+            <span class="nav-user">👤 {{ current_user.name }} ({{ current_user.role|capitalize }})</span>
+            <a href="{{ url_for('auth.logout') }}">Logout</a>
+        {% else %}
+            <a href="{{ url_for('auth.login') }}" {% if active == 'login' %}class="active"{% endif %}>Login</a>
+        {% endif %}
+    </div>
+</nav>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <div class="main" style="padding-bottom:0;">
+        {% for category, message in messages %}
+            <div class="flash flash-{{ category }}">{{ message }}</div>
+        {% endfor %}
+        </div>
+    {% endif %}
+{% endwith %}
+
+{% if last_updated %}
+<p class="last-updated-note">📅 Scholar data last updated: {{ last_updated }}</p>
+{% endif %}
+
+<div class="main">
+    {% block content %}{% endblock %}
+</div>
+
+<footer>Developed by Vidyalankar Institute of Technology</footer>
+</body>
+</html>

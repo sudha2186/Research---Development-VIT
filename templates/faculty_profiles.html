@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% set active = 'profiles' %}
+{% block title %}Faculty Profiles - VIT{% endblock %}
+{% block content %}
+<h1>🎓 Faculty Research Profiles</h1>
+
+<!-- Fetch status banner -->
+<div id="statusBanner" style="display:none;" class="alert alert-info">
+    ⏳ Scholar data is still being fetched (<span id="fetchedCount">0</span>/<span id="totalCount">0</span> faculty done).
+    Showing available data for now.
+</div>
+
+<div class="search-box">
+    <input type="text" id="searchInput" placeholder="Type a faculty name to search..." oninput="searchFaculty()">
+</div>
+
+<div id="matchList" style="margin-bottom:1rem;"></div>
+
+<!-- Profile section -->
+<div id="profileSection" style="display:none;">
+
+    <div class="profile-card">
+        <img id="profileImg" src="" alt="Profile Photo" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png'">
+        <div class="profile-info">
+            <h2 id="profileName"></h2>
+            <p id="profileDept" style="font-size:1rem; color:#555;"></p>
+            <p id="profileAffiliation" style="color:#777; font-size:0.9rem;"></p>
+            <p id="profileInterests" style="color:#444; font-size:0.9rem; margin-top:6px;"></p>
+            <p style="margin-top:10px;">
+                <a id="profileScholarLink" class="btn btn-outline" href="#" target="_blank" style="font-size:0.85rem; padding:7px 14px;">
+                    🔗 View on Google Scholar
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Metrics -->
+    <div class="metrics-row">
+        <div class="metric-box">
+            <div class="metric-value" id="metricCitations">—</div>
+            <div class="metric-label">📈 Total Citations</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-value" id="metricCitations5y">—</div>
+            <div class="metric-label">📈 Citations (Last 5y)</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-value" id="metricHindex">—</div>
+            <div class="metric-label">📊 h-index</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-value" id="metricHindex5y">—</div>
+            <div class="metric-label">📊 h-index (Last 5y)</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-value" id="metricI10">—</div>
+            <div class="metric-label">🔢 i10-index</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-value" id="metricI105y">—</div>
+            <div class="metric-label">🔢 i10-index (Last 5y)</div>
+        </div>
+    </div>
+
+    <!-- Publications per year chart -->
+    <div id="chartSection" style="display:none; background:#fff; border-radius:14px; padding:1.5rem; box-shadow:0 4px 14px rgba(0,0,0,0.08); margin:1.5rem 0;">
+        <h2>📊 Publications Per Year</h2>
+        <canvas id="pubChart" height="90"></canvas>
+    </div>
+
+    <!-- Publications table -->
+    <div id="pubSection" style="display:none;">
+        <h2 style="margin-bottom:0.8rem;">📄 Publications <span id="pubCount" style="font-size:1rem; font-weight:normal; color:#666;"></span></h2>
+
+        <div style="margin-bottom:1rem; display:flex; gap:10px; flex-wrap:wrap;">
+            <input type="text" id="pubSearch" placeholder="Filter publications..." oninput="filterPubs()"
+                style="padding:8px 14px; border:2px solid #ccd; border-radius:8px; font-size:0.9rem; flex:1; min-width:200px;">
+            <select id="yearFilter" onchange="filterPubs()"
+                style="padding:8px 14px; border:2px solid #ccd; border-radius:8px; font-size:0.9rem;">
+                <option value="">All Years</option>
+            </select>
+        </div>
+
+        <table id="pubTable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Journal / Venue</th>
+                    <th>Citations</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody id="pubTableBody"></tbody>
+        </table>
+        <p id="noPubsMsg" style="display:none; color:#888; text-align:center; padding:1rem;">No publications match your filter.</p>
+    </div>
+
+    <div id="noScholarMsg" style="display:none;" class="alert alert-warning">
+        ⚠️ Full publication data not yet fetched for this faculty. Run <code>python fetch_data.py</code> to fetch all data.
+    </div>
+</div>
+
+<!-- Full table when nothing searched -->
+<div id="fullTable">
+    <h2>📊 All Faculty</h2>
+    <div class="spinner" id="tableSpinner">Loading...</div>
+    <table id="facultyTable" style="display:none; margin-top:1rem;">
+        <thead>
+            <tr><th>#</th><th>Name</th><th>Department</th><th>Status</th></tr>
+        </thead>
+        <tbody id="facultyTableBody"></tbody>
+    </table>
+</div>
+
+<script src="{{ url_for('static', filename='js/faculty-profiles.js') }}"></script>
+{% endblock %}

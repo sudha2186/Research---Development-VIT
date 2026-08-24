@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% set active = 'analysis' %}
+{% block title %}Faculty Detail - {{ faculty['Name'] }}{% endblock %}
+{% block content %}
+<div style="margin-bottom:1.5rem;">
+    <a href="{{ url_for('department_analysis') }}" class="btn btn-outline" style="padding:6px 14px; font-size:0.85rem;">← Back to Department Analysis</a>
+</div>
+
+<h1>👤 Faculty Deep Inspection: {{ faculty['Name'] }}</h1>
+
+<div class="profile-card" style="margin-bottom:1.5rem;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" alt="Photo" style="width:120px; height:120px;">
+    <div class="profile-info" style="flex:1;">
+        <h2>{{ faculty['Name'] }}</h2>
+        <p style="font-size:1rem; color:#555;">🏢 Department: <strong>{{ faculty['Department'] }}</strong></p>
+        <p style="color:#666;">🆔 Scholar ID: <code>{{ faculty['Scholar ID'] }}</code></p>
+        {% if entry.affiliation %}<p style="color:#666;">🏛️ Affiliation: {{ entry.affiliation }}</p>{% endif %}
+        {% if entry.interests %}<p style="color:#666;">🔬 Interests: {{ entry.interests|join(', ') }}</p>{% endif %}
+
+        <div style="margin-top:12px;">
+            {% if is_active %}
+                <span class="flash flash-success" style="display:inline-block; padding:6px 14px; margin:0; font-size:0.85rem;">🟢 Active (Publication in last 6 months)</span>
+            {% else %}
+                <span class="flash flash-error" style="display:inline-block; padding:6px 14px; margin:0; font-size:0.85rem;">🔴 Inactive (No publication in last 6 months)</span>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<div class="metrics-row" style="margin-bottom:1.5rem;">
+    <div class="metric-box">
+        <div class="metric-value">{{ entry.get('cited_by', 0) }}</div>
+        <div class="metric-label">📈 Total Citations</div>
+    </div>
+    <div class="metric-box">
+        <div class="metric-value">{{ entry.get('hindex', 0) }}</div>
+        <div class="metric-label">📊 h-index</div>
+    </div>
+    <div class="metric-box">
+        <div class="metric-value">{{ pubs|length }}</div>
+        <div class="metric-label">📄 Total Publications</div>
+    </div>
+</div>
+
+<h2>⏱️ Data Timestamps</h2>
+<div class="alert alert-info" style="margin-bottom:1.5rem;">
+    <p style="margin-bottom:4px;"><strong>Google Scholar Data Last Fetched:</strong> {{ scholar_last_updated or 'Not available' }}</p>
+    <p><strong>Most Recent Manual Addition:</strong> {{ manual_last_updated or 'None recorded' }}</p>
+</div>
+
+<h2>📄 Publications List ({{ pubs|length }})</h2>
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Journal / Venue</th>
+            <th>Citations</th>
+            <th>Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for p in pubs %}
+        <tr>
+            <td style="color:#888;">{{ loop.index }}</td>
+            <td>
+                {% if p.url %}
+                    <a href="{{ p.url }}" target="_blank" style="color:#004080; font-weight:500;">{{ p.title }}</a>
+                {% else %}
+                    <span style="font-weight:500;">{{ p.title }}</span>
+                {% endif %}
+            </td>
+            <td>{{ p.year or '—' }}</td>
+            <td style="color:#555;">{{ p.journal or '—' }}</td>
+            <td>{{ p.citations or 0 }}</td>
+            <td>
+                {% if p.source == 'manual' %}
+                    <span style="background:#fff3cd; color:#856404; padding:2px 8px; border-radius:6px; font-size:0.78rem; font-weight:600;">✍️ Manually added</span>
+                {% else %}
+                    <span style="background:#d1ecf1; color:#0c5460; padding:2px 8px; border-radius:6px; font-size:0.78rem; font-weight:600;">🎓 Scholar</span>
+                {% endif %}
+            </td>
+        </tr>
+        {% else %}
+        <tr><td colspan="6" style="text-align:center; color:#888;">No publications recorded for this faculty member.</td></tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

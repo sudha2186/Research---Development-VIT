@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% set active = 'notifications' %}
+{% block title %}Notifications - VIT{% endblock %}
+{% block content %}
+<h1>🔔 Notifications</h1>
+<p style="color:#555; margin-bottom:1.5rem;">Alerts for faculty who manually added a publication.</p>
+
+<table>
+    <thead><tr><th>Message</th><th>When</th><th>Status</th><th></th></tr></thead>
+    <tbody>
+    {% for n in notes %}
+        <tr style="{% if not n.is_read %}font-weight:600;{% endif %}">
+            <td>{{ n.message }}</td>
+            <td style="white-space:nowrap; font-size:0.85rem; color:#555;">{{ n.created_at[:16].replace('T', ' ') }}</td>
+            <td>
+                {% if n.is_read %}
+                    <span style="color:#28a745;">✅ Read</span>
+                {% else %}
+                    <span style="color:#dc3545;">🔴 New</span>
+                {% endif %}
+            </td>
+            <td>
+                {% if not n.is_read %}
+                <form method="POST" action="{{ url_for('mark_notification', notif_id=n.id) }}">
+                    <button type="submit" class="btn btn-outline" style="padding:4px 10px; font-size:0.75rem;">Mark as read</button>
+                </form>
+                {% endif %}
+            </td>
+        </tr>
+    {% else %}
+        <tr><td colspan="4" style="text-align:center; color:#888;">No notifications yet.</td></tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

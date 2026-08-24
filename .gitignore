@@ -1,0 +1,15 @@
+# Secrets - never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Database
+app_data.db
+
+# OS/editor junk
+.DS_Store
+*.swp
