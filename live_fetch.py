@@ -5,6 +5,7 @@ Used by app.py when someone views/searches a faculty profile that hasn't
 been pre-fetched yet (i.e. not yet in scholar_data.json). Instead of showing
 "no data", we fetch that one person live via ScraperAPI right at request
 time, cache the result into scholar_data.json, and serve it.
+
 """
 import time
 from datetime import datetime, timezone
