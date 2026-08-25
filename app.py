@@ -6,6 +6,8 @@ import requests
 from pathlib import Path
 from collections import Counter, defaultdict
 from datetime import datetime, timezone, timedelta
+import threading
+from live_fetch import fetch_author_live
 
 import config
 import db
@@ -42,6 +44,26 @@ def get_profile_image_url(scholar_id):
     except Exception:
         return DEFAULT_IMAGE
 
+_fetch_lock = threading.Lock()
+
+def fetch_and_cache_single(scholar_id, name):
+    """If a faculty member hasn't been fetched yet, fetch them live right now
+    and cache the result into scholar_data.json for next time."""
+    with _fetch_lock:
+        scholar_data = load_scholar_data()
+        existing = scholar_data.get(scholar_id)
+        if existing and not existing.get("error"):
+            return existing  # someone else's request already fetched it
+
+        try:
+            result = fetch_author_live(scholar_id, name, existing)
+            scholar_data[scholar_id] = result
+            with open(SCHOLAR_DATA_FILE, "w", encoding="utf-8") as f:
+                json.dump(scholar_data, f, indent=2, ensure_ascii=False)
+            db.set_meta("scholar_last_updated", datetime.now(timezone.utc).isoformat())
+            return result
+        except Exception as e:
+            return {"name": name, "error": True, "error_message": str(e), "scholar_id": scholar_id}
 
 def get_all_publications(scholar_id, scholar_entry):
     """Merge Scholar-sourced publications with manually-added ones."""
@@ -500,6 +522,9 @@ def api_faculty_profile():
     data["scholar_url"] = f"https://scholar.google.com/citations?user={scholar_id}"
 
     sd = scholar_data.get(scholar_id, {})
+    if not sd or sd.get("error") or sd.get("no_id"):
+        # Not fetched yet — fetch this one faculty member live, right now
+        sd = fetch_and_cache_single(scholar_id, data.get("Name", ""))
     all_pubs = get_all_publications(scholar_id, sd)
 
     if not sd.get("error") and not sd.get("no_id"):
@@ -512,6 +537,7 @@ def api_faculty_profile():
         data["affiliation"] = sd.get("affiliation", "VIT")
         data["interests"] = sd.get("interests", [])
         data["data_source"] = "scholar"
+        data["freshly_fetched"] = sd.get("fetched_live", False)  
     else:
         data["data_source"] = "excel" if all_pubs else "excel_only"
 
