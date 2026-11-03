@@ -1,8 +1,14 @@
 async function loadDepartment() {
-    const dept = document.getElementById('deptSelect').value;
+    const selectElem = document.getElementById('deptSelect');
+    if (!selectElem) return;
+    const dept = selectElem.value;
     document.getElementById('deptContent').innerHTML = '<div class="spinner">Loading...</div>';
 
     const res = await fetch(`/api/department/faculty?dept=${encodeURIComponent(dept)}`);
+    if (!res.ok) {
+        document.getElementById('deptContent').innerHTML = '<div class="alert alert-error" style="margin-top:1rem;">Access denied: You do not have permission to view this department.</div>';
+        return;
+    }
     const faculty = await res.json();
 
     // Aggregate dept stats
@@ -33,14 +39,12 @@ async function loadDepartment() {
 
     faculty.forEach((f, i) => {
         const sid = f['Scholar ID'];
-        const profileLink = sid && sid !== 'Not Found'
-            ? `<a href="/faculty-profiles?search=${encodeURIComponent(f['Name'])}" class="btn" style="padding:5px 12px; font-size:0.8rem;">View Profile</a>`
-            : '<span style="color:#aaa">No ID</span>';
+        const profileLink = `<a href="/faculty-profiles?search=${encodeURIComponent(f['Name'])}" class="btn" style="padding:5px 12px; font-size:0.8rem;">View Profile</a>`;
         const pubCount = f.pub_count != null ? f.pub_count : '—';
         const citations = f.cited_by != null ? f.cited_by : '—';
         const hindex = f.hindex != null ? f.hindex : '—';
         const i10 = f.i10index != null ? f.i10index : '—';
-        const statusDot = f.data_source === 'scholar' ? '🟢' : '🟡';
+        const statusDot = f.has_scholar_id ? '🟢' : '⚪';
         html += `<tr>
             <td>${i+1}</td>
             <td><strong>${statusDot} ${f['Name']}</strong></td>
@@ -53,7 +57,7 @@ async function loadDepartment() {
     });
 
     html += `</tbody></table>
-    <p style="font-size:0.8rem; color:#888; margin-top:0.8rem;">🟢 = Full scholar data available &nbsp; 🟡 = Fetch pending (run fetch_data.py)</p>`;
+    <p style="font-size:0.8rem; color:#888; margin-top:0.8rem;">🟢 = Google Scholar ID linked &nbsp; ⚪ = Scholar ID Unavailable</p>`;
     document.getElementById('deptContent').innerHTML = html;
 }
 

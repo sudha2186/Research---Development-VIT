@@ -36,6 +36,12 @@ async function loadReport() {
     }
 
     const res = await fetch(`/api/reports/monthly?year=${year}&month=${month}&dept=${encodeURIComponent(dept)}`);
+    if (!res.ok) {
+        if (container) {
+            container.innerHTML = '<div class="alert alert-error" style="margin-top:1rem;">Access denied: You do not have permission to view monthly reports for this department.</div>';
+        }
+        return;
+    }
     const d = await res.json();
 
     let html = `<h2>${months[d.month-1]} ${d.year} — ${d.department}</h2>

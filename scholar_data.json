@@ -8198,5 +8198,691 @@
       }
     ],
     "scholar_id": "38N2NM4AAAAJ"
+  },
+  "iTeAaP4AAAAJ": {
+    "name": "Dr. Ambadas Deshmukh",
+    "affiliation": "Assistant Professor, Vidyalankar Institute of Technology, Mumbai",
+    "interests": [
+      "Transporattion Problem"
+    ],
+    "cited_by": 15,
+    "cited_by_5y": 15,
+    "hindex": 2,
+    "hindex5y": 2,
+    "i10index": 0,
+    "i10index5y": 0,
+    "publications": [
+      {
+        "title": "FUZZY TRANSPORTATION PROBLEM BY USING FUZZY RANDOM NUMBER",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:37:03.009679+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "ADMISSIBILITY AND ASYMPTOTIC BEHAVIOR OF SUMMATION EQUATION",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:37:03.009679+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "FUZZY TRANSPORTATION PROBLEM USING NEW RANKING TECNIQUES TO ORDER PENTAGONAL FUZZY NUMBER WITH ERROR USING LAGRANGE‟ S INTERPOLATION FORMULA",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:37:03.009679+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fuzzy transportation problem by using triangular fuzzy numbers with ranking using area of trapezium, rectangle and centroid at different level of α-cut",
+        "year": "2021",
+        "journal": "Unknown",
+        "citations": 9,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:37:03.009679+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fuzzy transportation problem by using trapezoidal fuzzy numbers",
+        "year": "2018",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:37:03.009679+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "iTeAaP4AAAAJ",
+    "fetched_live": true,
+    "fetched_at": "2026-11-03T15:37:03.009679+00:00"
+  },
+  "WU1vPakAAAAJ": {
+    "name": "Dr. Prashant S. Lokhande",
+    "affiliation": "Vidyalankar Institute of Technology",
+    "interests": [
+      "Cyber Security",
+      "Cyber Crime",
+      "Digital Forensics"
+    ],
+    "cited_by": 237,
+    "cited_by_5y": 189,
+    "hindex": 6,
+    "hindex5y": 4,
+    "i10index": 3,
+    "i10index5y": 1,
+    "publications": [
+      {
+        "title": "AI image generator–text to image and sketch to image generator",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Laptop Tracking System",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "SMART ELECTRONIC-BILLING",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "College Alumni Portal",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Advancing surface web threat detection with intelligent AI-based mitigation techniques",
+        "year": "2026",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "AI Image Generator: Text-to-Image and Sketch-to-Image",
+        "year": "2026",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "AI image generator – text to image and sketch to image generator.",
+        "year": "2026",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Enhancing Web Security Detection with AI-Driven Mitigation Techniques",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Beyond the Veil: Analyzing Dark Web Threats with AI",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design Of An Intrusion Detection Model For Smart Homes Enabled By IOT",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Analyzing security risks in browser extension search tools: A literature review",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Tackling Threats: A Study of Vulnerability Testing and Mitigation in Web Applications",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design of an intrusion detection model for iot-enabled smart home",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Lost Laptop Tracking System Using Mac Address",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Mobile Device Forensics For Social Media Investigations",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Referendum Poll System A Blockchain Based Solution for Direct Democracy",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Analytic Hierarchy Process (AHP) to Find Most Probable Web Attack on an E-Commerce Site",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Digital Forensics Analysis for Data Theft",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "SQL Injection Prevention Using Random4 Algorithm",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Web Scalability",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "College alumni portal",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Efficient Way Of Web Development Using Python And Flask.",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 164,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Analysis and Design of Web Personalization Systems for E-Commerce",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Collecting digital evidence: Internet banking fraud-Case study",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Building Dynamic E-Business Systems Architecture",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Smart Electronic-Billing Through Android App",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Smart electronic billing",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Building Dynamic E-Business Systems Architecture",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Botnet: Understanding Behavior, Life Cycle Events & Actions",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "SOA Implementation Based on WCF Service",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "E-Commerce Applications: Vulnerabilities, Attacks and Countermeasures.",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 10,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "E-Commerce on Cloud: Issues, Attacks & Security",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Implementation of Mobile Agent Architecture for E-Commerce Application for Mobile Devices",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Cloud Computing: An Architecture, its Security Issues & Attacks",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Survey on Contribution of Agent Technology for Implementing an  Application for Mobile devices",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Service-Oriented Architecture for Smart Vision Application Based Cloud Environment",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Performance and security measure of highly performed enterprise content management system",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 12,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Critical Analysis Study into the Use of Enterprise Content Management System.",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Preventive Measures to Avoid Cyber Crime and Various Methods to Collect Digital Evidence",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Sonika Tyagi SD Sawarkar",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Practical Approach Towards Nextgen Secure Web Application",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Sigless Buffer overflow Attack Blokers",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Digital Forensics Investigation Process Models",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Consideration of Critical Elements, Active-X Security Concerns and Risks for Web Development",
+        "year": "2010",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Project Management Techniques and Risk Control",
+        "year": "2010",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Learning from Past Intrusion Attacks: Digital Evidence Collection to Make E-commerce  Systems more secure.",
+        "year": "2009",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Web Engineering Model and Quality Issues for Building e-Commerce Applications",
+        "year": "2009",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "“BPO: An architectural approach to deal Infrastructure,Manpower & Disasters”,",
+        "year": "2007",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "“Secure and Effective Initialization of Call Center Architecture”,",
+        "year": "2007",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Analysis of Web cache",
+        "year": "2007",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "“Enabling Mobile Computing through Personal Distributed Environment (PDE)”,",
+        "year": "2006",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "“Towards building a scalable eCommerce architecture”,",
+        "year": "2006",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T15:52:11.498048+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "WU1vPakAAAAJ",
+    "fetched_live": true,
+    "fetched_at": "2026-11-03T15:52:11.498048+00:00"
+  },
+  "imZoqf8AAAAJ": {
+    "name": "Mahesh Khandke",
+    "affiliation": "Assistant Professor, Vidyalankar Institute of Technology, Mumbai",
+    "interests": [
+      "Computer"
+    ],
+    "cited_by": 5,
+    "cited_by_5y": 4,
+    "hindex": 2,
+    "hindex5y": 2,
+    "i10index": 0,
+    "i10index5y": 0,
+    "publications": [
+      {
+        "title": "A Comparative Study Of Advanced Reservation Algorithms In Optical Grid",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T16:55:33.818791+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "An Efficient Satellite Image Deblurring Model Integrating Deep Learning and Walrus Optimization Algorithm",
+        "year": "2026",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T16:55:33.818791+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Deep Learning Algorithms for Satellite Image Processing: Past, Present and Future",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T16:55:33.818791+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Comparative Analysis of CNN and Hybrid CNN-LSTM for Crop and Fertilizer Recommender System",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T16:55:33.818791+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A novel deterministic key pre distribution schemes for wireless sensor network",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T16:55:33.818791+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "FAILURE RECOVERY USING RSWF ALGORITHM FOR ADVANCED RESERVATION IN OPTICAL GRID",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-03T16:55:33.818791+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "imZoqf8AAAAJ",
+    "fetched_live": true,
+    "fetched_at": "2026-11-03T16:55:33.818791+00:00"
   }
 }

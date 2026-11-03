@@ -26,12 +26,18 @@
             <p id="profileDept" style="font-size:1rem; color:#555;"></p>
             <p id="profileAffiliation" style="color:#777; font-size:0.9rem;"></p>
             <p id="profileInterests" style="color:#444; font-size:0.9rem; margin-top:6px;"></p>
-            <p style="margin-top:10px;">
+            <div id="scholarStatusBadge" style="margin-top:8px;"></div>
+            <p style="margin-top:10px;" id="scholarLinkContainer">
                 <a id="profileScholarLink" class="btn btn-outline" href="#" target="_blank" style="font-size:0.85rem; padding:7px 14px;">
                     🔗 View on Google Scholar
                 </a>
             </p>
         </div>
+    </div>
+
+    <!-- Scholar ID Unavailable message banner -->
+    <div id="scholarUnavailableNotice" style="display:none;" class="alert alert-info">
+        ℹ️ <strong>Scholar Profile Notice:</strong> Google Scholar profile is not linked for this faculty member. Citation metrics and publication data are currently unavailable.
     </div>
 
     <!-- Metrics -->
@@ -90,6 +96,7 @@
                     <th>Journal / Venue</th>
                     <th>Citations</th>
                     <th>Source</th>
+                    <th>Paper</th>
                 </tr>
             </thead>
             <tbody id="pubTableBody"></tbody>

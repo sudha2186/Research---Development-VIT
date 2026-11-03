@@ -1,5 +1,10 @@
 async function loadMetrics() {
     const res = await fetch('/api/department/metrics');
+    if (!res.ok) {
+        const spinner = document.getElementById('tableSpinner');
+        if (spinner) spinner.innerHTML = 'Access denied or error loading metrics.';
+        return;
+    }
     const data = await res.json();
 
     const labels = data.map(d => d['Department']);

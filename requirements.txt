@@ -6,3 +6,4 @@ requests
 python-dotenv
 scholarly
 gunicorn
+psycopg2-binary

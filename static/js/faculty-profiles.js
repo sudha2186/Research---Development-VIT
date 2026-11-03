@@ -23,11 +23,15 @@ async function loadAllFaculty() {
     const faculty = await res.json();
     tbody.innerHTML = '';
     faculty.forEach((f, i) => {
+        const hasSid = f['Scholar ID'] && f['Scholar ID'] !== 'Not Found' && !f['Scholar ID'].startsWith('NO_ID');
+        const statusBadge = hasSid
+            ? '<span style="color:#28a745; font-weight:600;">🟢 Has Scholar ID</span>'
+            : '<span style="color:#6c757d; font-weight:600;">⚪ Scholar ID Unavailable</span>';
         tbody.innerHTML += `<tr>
             <td>${i+1}</td>
-            <td><strong>${f['Name']}</strong></td>
+            <td><a href="javascript:void(0)" onclick="loadProfile('${f.id}')" style="color:#004080; text-decoration:none; font-weight:600;">${f['Name']}</a></td>
             <td>${f['Department']}</td>
-            <td>${f['Scholar ID'] !== 'Not Found' ? '🟢 Has Scholar ID' : '🔴 No Scholar ID'}</td>
+            <td>${statusBadge}</td>
         </tr>`;
     });
     const spinner = document.getElementById('tableSpinner');
@@ -59,15 +63,19 @@ function searchFaculty() {
             return;
         }
         document.getElementById('fullTable').style.display = 'none';
-        matchList.innerHTML = `<select onchange="loadProfile(this.value)" style="padding:10px 16px; border:2px solid #004080; border-radius:8px; font-size:1rem; min-width:300px;">
-            <option value="">-- Select a faculty --</option>
-            ${matches.map(f => `<option value="${f['Scholar ID']}">${f['Name']} (${f['Department']})</option>`).join('')}
+        matchList.innerHTML = `<select onchange="loadProfile(this.value)" style="padding:10px 16px; border:2px solid #004080; border-radius:8px; font-size:1rem; min-width:320px;">
+            <option value="">-- Select a faculty member --</option>
+            ${matches.map(f => {
+                const hasSid = f['Scholar ID'] && f['Scholar ID'] !== 'Not Found' && !f['Scholar ID'].startsWith('NO_ID');
+                const tag = hasSid ? '' : ' [Scholar ID Unavailable]';
+                return `<option value="${f.id}">${f['Name']} (${f['Department']})${tag}</option>`;
+            }).join('')}
         </select>`;
     }, 300);
 }
 
-async function loadProfile(scholarId) {
-    if (!scholarId || scholarId === 'Not Found') {
+async function loadProfile(identifier) {
+    if (!identifier) {
         document.getElementById('profileSection').style.display = 'none';
         return;
     }
@@ -78,15 +86,51 @@ async function loadProfile(scholarId) {
     document.getElementById('noScholarMsg').style.display = 'none';
     document.getElementById('pubTableBody').innerHTML = '';
 
-    const res = await fetch(`/api/faculty/profile?id=${encodeURIComponent(scholarId)}`);
+    const badgeElem = document.getElementById('scholarStatusBadge');
+    const noticeElem = document.getElementById('scholarUnavailableNotice');
+    const linkContainer = document.getElementById('scholarLinkContainer');
+
+    const res = await fetch(`/api/faculty/profile?id=${encodeURIComponent(identifier)}`);
     const d = await res.json();
 
-    document.getElementById('profileImg').src = d.image_url;
+    document.getElementById('profileImg').src = d.image_url || 'https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png';
     document.getElementById('profileName').textContent = '👤 ' + d['Name'];
     document.getElementById('profileDept').textContent = '🏢 Department: ' + d['Department'];
-    document.getElementById('profileAffiliation').textContent = d.affiliation || '';
-    document.getElementById('profileInterests').textContent = d.interests?.length ? '🔬 ' + d.interests.join(', ') : '';
-    document.getElementById('profileScholarLink').href = d.scholar_url;
+    document.getElementById('profileAffiliation').textContent = d.affiliation || 'Vidyalankar Institute of Technology';
+    document.getElementById('profileInterests').textContent = (d.interests && d.interests.length) ? '🔬 ' + d.interests.join(', ') : '';
+
+    if (!d.has_scholar_id) {
+        // Faculty has no Google Scholar ID - Professional handling as per specification
+        if (badgeElem) badgeElem.innerHTML = '<span class="badge-count" style="background:#6c757d; font-size:0.8rem; padding:4px 10px; border-radius:6px; font-weight:600;">⚪ Scholar ID Unavailable</span>';
+        if (noticeElem) {
+            noticeElem.style.display = 'block';
+            noticeElem.innerHTML = `ℹ️ <strong>Scholar Profile Notice:</strong> ${d.scholar_status_message || 'Google Scholar profile is not linked for this faculty member. Citation metrics and publication data are currently unavailable.'}`;
+        }
+        if (linkContainer) linkContainer.style.display = 'none';
+
+        document.getElementById('metricCitations').textContent = '—';
+        document.getElementById('metricCitations5y').textContent = '—';
+        document.getElementById('metricHindex').textContent = '—';
+        document.getElementById('metricHindex5y').textContent = '—';
+        document.getElementById('metricI10').textContent = '—';
+        document.getElementById('metricI105y').textContent = '—';
+
+        if (d.publications && d.publications.length > 0) {
+            allPubs = d.publications;
+            renderPublications(allPubs);
+            document.getElementById('pubSection').style.display = 'block';
+            document.getElementById('pubCount').textContent = `(${allPubs.length} total)`;
+        }
+        return;
+    }
+
+    // Faculty has valid Google Scholar ID
+    if (noticeElem) noticeElem.style.display = 'none';
+    if (badgeElem) badgeElem.innerHTML = '<span class="badge-count" style="background:#28a745; font-size:0.8rem; padding:4px 10px; border-radius:6px; font-weight:600;">🟢 Scholar ID Linked</span>';
+    if (linkContainer) {
+        linkContainer.style.display = 'block';
+        document.getElementById('profileScholarLink').href = d.scholar_url;
+    }
 
     document.getElementById('metricCitations').textContent = d.cited_by ?? '—';
     document.getElementById('metricCitations5y').textContent = d.cited_by_5y ?? '—';
@@ -95,7 +139,7 @@ async function loadProfile(scholarId) {
     document.getElementById('metricI10').textContent = d.i10index ?? '—';
     document.getElementById('metricI105y').textContent = d.i10index5y ?? '—';
 
-    if (d.data_source === 'scholar' && d.publications?.length > 0) {
+    if (d.publications && d.publications.length > 0) {
         allPubs = d.publications;
         renderPublications(allPubs);
         renderChart(allPubs);
@@ -166,6 +210,14 @@ function buildTable(pubs) {
         const sourceBadge = p.source === 'manual'
             ? `<span style="background:#fff3cd; color:#856404; padding:2px 8px; border-radius:6px; font-size:0.75rem; font-weight:600;">✍️ Manually added</span>`
             : `<span style="background:#d1ecf1; color:#0c5460; padding:2px 8px; border-radius:6px; font-size:0.75rem; font-weight:600;">🎓 Scholar</span>`;
+        
+        let paperAction = '<span style="color:#aaa; font-size:0.8rem;">—</span>';
+        if (p.has_file && p.download_url) {
+            paperAction = `<a href="${p.download_url}" class="btn" style="padding:4px 8px; font-size:0.75rem; text-decoration:none;" download>📥 Download</a>`;
+        } else if (p.url && (p.url.startsWith('http://') || p.url.startsWith('https://'))) {
+            paperAction = `<a href="${p.url}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding:4px 8px; font-size:0.75rem; text-decoration:none;">🔗 Open Paper</a>`;
+        }
+
         tbody.innerHTML += `<tr>
             <td style="color:#888; min-width:30px;">${i+1}</td>
             <td>${title}</td>
@@ -173,6 +225,7 @@ function buildTable(pubs) {
             <td style="color:#555; font-size:0.85rem;">${p.journal || '—'}</td>
             <td style="text-align:center;">${p.citations || 0}</td>
             <td>${sourceBadge}</td>
+            <td style="white-space:nowrap; text-align:center;">${paperAction}</td>
         </tr>`;
     });
 }
@@ -187,12 +240,22 @@ function filterPubs() {
     buildTable(filtered);
 }
 
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => {
-        checkStatus();
-        loadAllFaculty();
-    });
-} else {
+function initPage() {
     checkStatus();
     loadAllFaculty();
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchParam = urlParams.get('search');
+    if (searchParam) {
+        const input = document.getElementById('searchInput');
+        if (input) {
+            input.value = searchParam;
+            searchFaculty();
+        }
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPage);
+} else {
+    initPage();
 }

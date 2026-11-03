@@ -13,7 +13,7 @@
 
 <h2>➕ Add a Publication</h2>
 <div class="profile-card" style="display:block;">
-    <form method="POST">
+    <form method="POST" enctype="multipart/form-data">
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1rem;">
             <div style="grid-column: span 2;">
                 <label style="display:block; margin-bottom:6px; font-weight:600;">Title *</label>
@@ -31,6 +31,10 @@
                 <label style="display:block; margin-bottom:6px; font-weight:600;">Link (optional)</label>
                 <input type="url" name="url" placeholder="https://..." style="width:100%; padding:10px 14px; border:2px solid #ccd; border-radius:8px;">
             </div>
+            <div style="grid-column: span 2;">
+                <label style="display:block; margin-bottom:6px; font-weight:600;">Paper File (optional PDF, DOCX)</label>
+                <input type="file" name="paper_file" accept=".pdf,.doc,.docx" style="width:100%; padding:8px 12px; border:2px solid #ccd; border-radius:8px; background:#fff;">
+            </div>
         </div>
         <button type="submit" class="btn">Add Publication</button>
     </form>
@@ -41,7 +45,7 @@
 
 <h2>📄 My Publications</h2>
 <table>
-    <thead><tr><th>#</th><th>Title</th><th>Year</th><th>Journal</th><th>Source</th><th></th></tr></thead>
+    <thead><tr><th>#</th><th>Title</th><th>Year</th><th>Journal</th><th>Source</th><th>Paper</th><th>Action</th></tr></thead>
     <tbody>
     {% for p in pubs %}
         <tr>
@@ -56,6 +60,15 @@
                     <span style="background:#d1ecf1; color:#0c5460; padding:2px 8px; border-radius:6px; font-size:0.78rem; font-weight:600;">🎓 Google Scholar</span>
                 {% endif %}
             </td>
+            <td style="white-space:nowrap; text-align:center;">
+                {% if p.has_file and p.download_url %}
+                    <a href="{{ p.download_url }}" class="btn" style="padding:4px 8px; font-size:0.75rem; text-decoration:none;" download>📥 Download</a>
+                {% elif p.url and (p.url.startswith('http://') or p.url.startswith('https://')) %}
+                    <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding:4px 8px; font-size:0.75rem; text-decoration:none;">🔗 Open Paper</a>
+                {% else %}
+                    <span style="color:#aaa; font-size:0.8rem;">—</span>
+                {% endif %}
+            </td>
             <td>
                 {% if p.source == 'manual' %}
                 <form method="POST" action="{{ url_for('delete_my_publication', pub_id=p.manual_id) }}" onsubmit="return confirm('Remove this publication?');">
@@ -65,7 +78,7 @@
             </td>
         </tr>
     {% else %}
-        <tr><td colspan="6" style="text-align:center; color:#888;">No publications yet.</td></tr>
+        <tr><td colspan="7" style="text-align:center; color:#888;">No publications yet.</td></tr>
     {% endfor %}
     </tbody>
 </table>

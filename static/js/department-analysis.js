@@ -13,6 +13,10 @@ async function loadAnalysis() {
     container.innerHTML = '<div class="spinner">Loading...</div>';
 
     const res = await fetch(`/api/analysis/department?dept=${encodeURIComponent(dept)}`);
+    if (!res.ok) {
+        container.innerHTML = '<div class="alert alert-error" style="margin-top:1rem;">Access denied: You do not have permission to view analysis for this department.</div>';
+        return;
+    }
     const d = await res.json();
 
     let html = `

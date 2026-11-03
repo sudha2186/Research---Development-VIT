@@ -39,8 +39,7 @@ def role_required(*roles):
         @login_required
         def wrapped(*args, **kwargs):
             if current_user.role not in roles:
-                flash("You do not have permission to view this page.", "error")
-                return redirect(url_for("home"))
+                abort(403)
             return f(*args, **kwargs)
         return wrapped
     return decorator
@@ -69,39 +68,8 @@ def login():
 
 @auth_bp.route("/register", methods=["GET", "POST"])
 def register():
-    if current_user.is_authenticated:
-        return redirect(url_for("home"))
-
-    departments = ["CMPN", "IT", "EXCS", "Biomedical", "ENTC"]
-
-    if request.method == "POST":
-        name = request.form.get("name", "").strip()
-        email = request.form.get("email", "").strip().lower()
-        password = request.form.get("password", "")
-        confirm_password = request.form.get("confirm_password", "")
-        role = request.form.get("role", "").strip().lower()
-        department = request.form.get("department", "").strip()
-
-        if not name or not email or not password or not confirm_password or not role:
-            flash("Please fill in all required fields.", "error")
-        elif not email.endswith("@vit.edu.in"):
-            flash("Email must end with @vit.edu.in.", "error")
-        elif password != confirm_password:
-            flash("Passwords do not match.", "error")
-        elif role not in ("faculty", "student"):
-            flash("Registration is allowed for Faculty or Student only.", "error")
-        elif role == "faculty" and not department:
-            flash("Department is required for faculty accounts.", "error")
-        elif db.get_user_by_email(email):
-            flash("An account with this email already exists.", "error")
-        else:
-            dept_val = department if role == "faculty" else None
-            user_row = db.create_user(email, password, role, name, dept_val, scholar_id=None)
-            login_user(User(user_row))
-            flash(f"Account created successfully. Welcome, {name}!", "success")
-            return redirect(url_for("home"))
-
-    return render_template("register.html", departments=departments)
+    flash("Public registration is disabled. Please log in with your assigned demonstration credentials.", "info")
+    return redirect(url_for("auth.login"))
 
 
 @auth_bp.route("/logout")

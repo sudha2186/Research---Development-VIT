@@ -58,6 +58,7 @@
             <th>Journal / Venue</th>
             <th>Citations</th>
             <th>Source</th>
+            <th>Paper</th>
         </tr>
     </thead>
     <tbody>
@@ -81,9 +82,18 @@
                     <span style="background:#d1ecf1; color:#0c5460; padding:2px 8px; border-radius:6px; font-size:0.78rem; font-weight:600;">🎓 Scholar</span>
                 {% endif %}
             </td>
+            <td style="white-space:nowrap; text-align:center;">
+                {% if p.has_file and p.download_url %}
+                    <a href="{{ p.download_url }}" class="btn" style="padding:4px 8px; font-size:0.75rem; text-decoration:none;" download>📥 Download</a>
+                {% elif p.url and (p.url.startswith('http://') or p.url.startswith('https://')) %}
+                    <a href="{{ p.url }}" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="padding:4px 8px; font-size:0.75rem; text-decoration:none;">🔗 Open Paper</a>
+                {% else %}
+                    <span style="color:#aaa; font-size:0.8rem;">—</span>
+                {% endif %}
+            </td>
         </tr>
         {% else %}
-        <tr><td colspan="6" style="text-align:center; color:#888;">No publications recorded for this faculty member.</td></tr>
+        <tr><td colspan="7" style="text-align:center; color:#888;">No publications recorded for this faculty member.</td></tr>
         {% endfor %}
     </tbody>
 </table>

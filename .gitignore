@@ -1,15 +1,35 @@
-# Secrets - never commit
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 .venv/
 venv/
+env/
 
-# Database
-app_data.db
+# IDE
+.vscode/
+.idea/
 
-# OS/editor junk
+# Vercel
+.vercel/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+backups/
+
+# Temporary files
+*.log
+*.tmp
+
+# OS files
 .DS_Store
-*.swp
+Thumbs.db

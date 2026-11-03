@@ -6,11 +6,18 @@
 <p style="color:#555; margin-bottom:1.5rem;">Vidyalankar Institute of Technology</p>
 
 <div class="search-box">
+    {% if locked_dept %}
+    <p style="color:#555; margin-bottom:0.5rem;">Department: <strong>{{ locked_dept }}</strong></p>
+    <select id="deptSelect" onchange="loadDepartment()" style="display:none;">
+        <option value="{{ locked_dept }}" selected>{{ locked_dept }}</option>
+    </select>
+    {% else %}
     <select id="deptSelect" onchange="loadDepartment()" style="max-width:320px;">
         {% for dept in departments %}
         <option value="{{ dept }}">{{ dept }}</option>
         {% endfor %}
     </select>
+    {% endif %}
 </div>
 
 <div id="deptContent">

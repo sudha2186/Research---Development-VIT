@@ -21,13 +21,41 @@
     </form>
 </div>
 
-<div style="max-width:420px; margin:1.5rem auto 0; font-size:0.9rem; color:#666; text-align:center;">
-    Don't have an account? <a href="{{ url_for('auth.register') }}" style="color:#004080; font-weight:600;">Register</a>
-</div>
-
-<div style="max-width:520px; margin:1rem auto 0; font-size:0.82rem; color:#888; text-align:center; line-height:1.5;">
-    <strong>Demo accounts (Password: <code>Admin@123</code> / <code>Hod@123</code> / <code>Faculty@123</code> / <code>Student@123</code>):</strong><br>
-    Admin: <code>admin@vit.edu.in</code> &nbsp;·&nbsp; Student: <code>student@vit.edu.in</code><br>
-    HODs: <code>hod.biomedical@vit.edu.in</code>, <code>hod.cmpn@vit.edu.in</code>, <code>hod.excs@vit.edu.in</code>, <code>hod.it@vit.edu.in</code>, <code>hod.entc@vit.edu.in</code>
+<div class="profile-card" style="max-width:540px; margin:2rem auto 0; display:block; background:#ffffff; border-radius:12px; padding:1.5rem 1.8rem; border-left:4px solid #004080;">
+    <h3 style="font-size:1rem; color:#004080; margin-bottom:0.75rem;">📋 College Demonstration Credentials</h3>
+    <table style="width:100%; font-size:0.85rem; border-collapse:collapse; box-shadow:none;">
+        <thead>
+            <tr style="background:#f0f4ff; color:#004080;">
+                <th style="padding:6px 10px; background:#e8eefc; color:#004080;">Role</th>
+                <th style="padding:6px 10px; background:#e8eefc; color:#004080;">Demonstration Email</th>
+                <th style="padding:6px 10px; background:#e8eefc; color:#004080;">Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding:6px 10px;"><strong>Student</strong></td>
+                <td style="padding:6px 10px;"><code>student@vit.edu.in</code></td>
+                <td style="padding:6px 10px;"><code>Student@123</code></td>
+            </tr>
+            <tr style="background:#fafafa;">
+                <td style="padding:6px 10px;"><strong>Faculty</strong></td>
+                <td style="padding:6px 10px;"><code>faculty@vit.edu.in</code></td>
+                <td style="padding:6px 10px;"><code>Faculty@123</code></td>
+            </tr>
+            <tr>
+                <td style="padding:6px 10px;"><strong>HOD (CMPN)</strong></td>
+                <td style="padding:6px 10px;"><code>hod@vit.edu.in</code></td>
+                <td style="padding:6px 10px;"><code>HOD@123</code></td>
+            </tr>
+            <tr style="background:#fafafa;">
+                <td style="padding:6px 10px;"><strong>Admin</strong></td>
+                <td style="padding:6px 10px;"><code>admin@vit.edu.in</code></td>
+                <td style="padding:6px 10px;"><code>Admin@123</code></td>
+            </tr>
+        </tbody>
+    </table>
+    <p style="font-size:0.75rem; color:#777; margin-top:0.75rem; line-height:1.4;">
+        ℹ️ These are temporary demonstration accounts prepared for college evaluation. Official institutional sign-in will be integrated subsequently.
+    </p>
 </div>
 {% endblock %}
