@@ -296,32 +296,47 @@ CREATE TABLE IF NOT EXISTS refresh_logs (
 """
 
 
+
 def init_db():
-    """Initializes tables and seeds base demo accounts if not present."""
+    """Initialize database tables and safely apply missing-column migrations."""
     with DBConnection() as db:
         schema = POSTGRES_SCHEMA if db.is_postgres else SQLITE_SCHEMA
+
+        # Create all required tables first.
         for stmt in schema.split(";"):
             stmt = stmt.strip()
             if stmt:
                 db.execute(stmt)
-        try:
-            db.execute("ALTER TABLE users ADD COLUMN created_at TEXT")
-        except Exception:
-            pass
-        try:
-            db.execute("ALTER TABLE notifications ADD COLUMN department TEXT")
-        except Exception:
-            pass
-        for col in ["file_path", "original_filename"]:
-            try:
-                db.execute(f"ALTER TABLE publications ADD COLUMN {col} TEXT")
-            except Exception:
-                pass
-            try:
-                db.execute(f"ALTER TABLE manual_publications ADD COLUMN {col} TEXT")
-            except Exception:
-                pass
+
+        # Apply migrations without aborting PostgreSQL transactions.
+        migrations = [
+            ("users", "created_at", "TEXT"),
+            ("notifications", "department", "TEXT"),
+            ("publications", "file_path", "TEXT"),
+            ("publications", "original_filename", "TEXT"),
+            ("manual_publications", "file_path", "TEXT"),
+            ("manual_publications", "original_filename", "TEXT"),
+        ]
+
+        for table, column, data_type in migrations:
+            if db.is_postgres:
+                # PostgreSQL safely ignores columns that already exist.
+                db.execute(
+                    f"ALTER TABLE {table} ADD COLUMN IF NOT EXISTS {column} {data_type}"
+                )
+            else:
+                # SQLite does not support ADD COLUMN IF NOT EXISTS.
+                try:
+                    db.execute(
+                        f"ALTER TABLE {table} ADD COLUMN {column} {data_type}"
+                    )
+                except sqlite3.OperationalError as e:
+                    if "duplicate column name" not in str(e).lower():
+                        raise
+
+    # Seed only after schema creation and migrations have committed.
     seed_demo_users()
+
 
 
 # -------------------------------------------------------------
