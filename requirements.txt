@@ -4,6 +4,7 @@ pandas
 openpyxl
 requests
 python-dotenv
-scholarly
+scholarly==1.7.11
+bibtexparser==1.4.3
 gunicorn
 psycopg2-binary
