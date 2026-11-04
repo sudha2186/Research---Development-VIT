@@ -28,7 +28,7 @@ if FLASK_ENV == "production" and SECRET_KEY == "dev-fallback-key-change-me":
     logging.warning("WARNING: SECRET_KEY is set to insecure default in production! Set SECRET_KEY in environment.")
 
 SCRAPER_API_KEY = os.getenv("SCRAPER_API_KEY", "")
-CRON_SECRET = os.getenv("CRON_SECRET", "vit-research-portal-cron-secret")
+CRON_SECRET = os.getenv("CRON_SECRET", "").strip()
 
 # Database configuration: Neon PostgreSQL or SQLite fallback
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()

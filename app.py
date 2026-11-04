@@ -955,6 +955,8 @@ def api_cron_refresh():
     auth_header = request.headers.get("Authorization", "")
     secret_header = request.headers.get("X-Cron-Secret", "")
     expected = config.CRON_SECRET
+    if not expected:
+        return jsonify({"error": "Cron secret is not configured"}), 503
 
     is_authorized = False
     if auth_header and auth_header.startswith("Bearer "):
