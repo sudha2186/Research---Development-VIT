@@ -9172,5 +9172,2023 @@
     "scholar_id": "ouNRfRUAAAAJ",
     "fetched_live": true,
     "fetched_at": "2026-11-04T07:47:15.118564+00:00"
+  },
+  "ovV28EEAAAAJ": {
+    "name": "Sneha M Annappanavar",
+    "affiliation": "Vidyalankar Institute of Technology",
+    "interests": [
+      "general"
+    ],
+    "cited_by": 10,
+    "cited_by_5y": 9,
+    "hindex": 1,
+    "hindex5y": 1,
+    "i10index": 1,
+    "i10index5y": 0,
+    "publications": [
+      {
+        "title": "Data Analysis of Twitter feeds on Google Maps",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:08:23.024610+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A comparative approach for clickbait detection using deep learning",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 10,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:08:23.024610+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "HIERARCHY BASED SECURED FILE SHARING",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:08:23.024610+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "ovV28EEAAAAJ",
+    "fetched_at": "2026-11-04T11:08:23.024610+00:00"
+  },
+  "eHcHkCIAAAAJ": {
+    "name": "Dr. Suvarna Bhat",
+    "affiliation": "Associate Professor",
+    "interests": [
+      "Digital Design",
+      "Signal Processing",
+      "Image Processing",
+      "Deep learning"
+    ],
+    "cited_by": 106,
+    "cited_by_5y": 100,
+    "hindex": 5,
+    "hindex5y": 5,
+    "i10index": 3,
+    "i10index5y": 2,
+    "publications": [
+      {
+        "title": "Tooth segmentation in panoramic dental radiographs using deep convolution neural network-Insights from subjective analysis: S. Bhat et al.",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 9,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Towards Reliable Skin Cancer Screening: A Multi-Model Deep Learning Approach on Dermoscopic Images",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "An Enhanced Diagnosis of Pneumonia Detection Through Modified CNN With M-Relu for Medical Image Diagonsis",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Enhanced diagnostic accuracy for dental caries and anomalies in panoramic radiographs using a custom deep learning model",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 11,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Pediatric oral health detection using Swin transformer",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Social Media Assisting Platform Using Sentiment Analysis",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A comprehensive survey of deep learning algorithms and applications in dental radiograph analysis",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 58,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Panoramic radiograph segmentation using U-net with Mobilenet v2 encoder",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Healthcare Analytics",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Personality recognition for candidate screening",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fruit disease detection and pesticide recommendation system.",
+        "year": "2021",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Agumented Reality Text Translation for Indian Language",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Virtual reality websites (VR WEB)",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 14,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Open Eyes-Reliable and User Friendly Application for Visually Impaired Users",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "GesText",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:09:45.247782+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "eHcHkCIAAAAJ",
+    "fetched_at": "2026-11-04T11:09:45.247782+00:00"
+  },
+  "PwvYPTQAAAAJ": {
+    "name": "Dr.Atul Oak",
+    "affiliation": "Associate Professor - Vidyalankar Institute of Technology, Mumbai",
+    "interests": [
+      "Internet of Things"
+    ],
+    "cited_by": 55,
+    "cited_by_5y": 44,
+    "hindex": 4,
+    "hindex5y": 4,
+    "i10index": 2,
+    "i10index5y": 2,
+    "publications": [
+      {
+        "title": "Design of Touch-screen by Human Skin for Appliances",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Review on Smart Grid Communication Application Layer Protocols",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Offline Machine-based Proctored Examination",
+        "year": "2027",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Detection of Unauthorized Objects During Offline Examination",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Efficient and Robust Security Architecture for Enhancing Security of Message Queue Telemetry Transport Protocol in Internet of Things Applications",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Performance of Message Queue Telemetry and Transport (MQTT) Protocol for Internet of Things (IoT) with Symmetric Encryption and Varying Cipher Blocks",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "CONTACTLESS E-ATTENDANCE FOR ORGANIZATION",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "IP based Digital Clock for Academic Applications",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Digital Clock in Regional Language",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Managing Location Identification and Chain SMS for Smart School Transport System using IoT",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 9,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Assessment of message queue telemetry and transport (MQTT) protocol with symmetric encryption",
+        "year": "2018",
+        "journal": "Unknown",
+        "citations": 21,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Smart attendance",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 15,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Performance of branch predictors of a CPU",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "HIGH SPEED DATA ACQUISITION SYSTEM WITH REAL TIME TEMPORAL AVERAGING",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design of a road sign informing system based on GPS and RFID",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 8,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:34.866501+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "PwvYPTQAAAAJ",
+    "fetched_at": "2026-11-04T11:10:34.866501+00:00"
+  },
+  "hep57_MAAAAJ": {
+    "name": "Dr. Dattatray Bade",
+    "affiliation": "Assistant Professor of Electronics and Telecommunication, Mumbai University",
+    "interests": [
+      "Microwave Engineering",
+      "Wireless Communication and Statistical Signal Processing"
+    ],
+    "cited_by": 65,
+    "cited_by_5y": 30,
+    "hindex": 5,
+    "hindex5y": 4,
+    "i10index": 3,
+    "i10index5y": 0,
+    "publications": [
+      {
+        "title": "Fuzzy Color Histogram Based Content Based Image Retrieval of Query Images",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Car Automation Using Controller Area Network",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Ultra-wideband bandpass microstrip filter with electronically tunable notch-band",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 8,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Wearable assistance device for the visually impaired",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Smart camera for traffic control by sing machine learning",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design Optimization of 10 nm Channel Length InGaAs Vertical Gate-All-Around Transistor (Nanowire)",
+        "year": "2018",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Smart vehicle communication using vector based forward routeing algorithm",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Moving object detection using background subtraction shadow removal and post processing",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 19,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Moving Object Detection for Video Surveillance using Different Color Spaces",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design of a wireless health monitoring system based on M2M communication",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 10,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Spectrum Sensing Techniques for Cognitive Radio in Next Generation Wireless Networks",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Image steganography using Karhunen-Loève transform and least bit substitution",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 11,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Year of Publication: 2015",
+        "year": "2003",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:10:57.325025+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "hep57_MAAAAJ",
+    "fetched_at": "2026-11-04T11:10:57.325025+00:00"
+  },
+  "fNTG2cAAAAAJ": {
+    "name": "Dr. Vaibhav R. Pandit",
+    "affiliation": "Dept. of Electronics & Telecomm. Engg., Vidyalankar Institute of Technology, Mumbai",
+    "interests": [
+      "Remote Sensing",
+      "Image Processing",
+      "Microwave Engineering",
+      "Embedded Systems"
+    ],
+    "cited_by": 219,
+    "cited_by_5y": 125,
+    "hindex": 6,
+    "hindex5y": 4,
+    "i10index": 3,
+    "i10index5y": 2,
+    "publications": [
+      {
+        "title": "FM-Based Digital Audio Transmission System  Using a 555 Timer and 433 MHz RF Modules",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Pan-sharpening in WorldView-4 and QuickBird-2 Imagery Using Wavelet-Based Techniques",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Deep Learning for Effective Channel Feedback Compression in 5G Networks",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Image Denoising using Adaptive Patch Clustering with  Suboptimal Wiener Filter in PCA Domain",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Using Marchenko--Pastur SVD and Linear MMSE Estimation for Reducing Image Noise.",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Morphology-based spatial filtering for efficiency enhancement of remote sensing image fusion",
+        "year": "2021",
+        "journal": "Unknown",
+        "citations": 14,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Multispectral to Panchromatic Image Fusion Based on Morphological Extended-Half-Gradient",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 7,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Remote Sensing Image Fusion Using High-Resolution Scale Regression and Half-Gradient",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Component Substitution Based Fusion of WorldView Imagery",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 8,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Using image segmentation for fusion of multispectral to panchromatic imagery",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fusion of QuickBird imagery using multi-resolution analysis based algorithms",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Optimizing Sensor Relationship for Fusion of Multispectral and Panchromatic Imagery",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fusion of Remote Sensing Imagery Using Morphological Gradient",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fractal Image Compression”, International Journal for Engineering Applications and Technology (IJFEAT)",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "POWER SAVING IN ELECTRICAL DEVICES USING IMAGE PROCESSING",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Internet of Things Based Connected Vehicles in Smart Cities: Review and Research Challenges",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Threshold Visual Cryptography for Fingerprint Based Authentication",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Image fusion in remote sensing applications: A review",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 146,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "MATLAB Implementation of Face recognition Using Local Binary Variance Pattern",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Prototype for Cellphone Signal Isolator for GSM Network With Preschedule Time Duration Using Arduino",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Implementation Issues in Bluetooth Based Smart Sensor Network",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fingerprint Based License Checking System for Vehicles",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "APPLICATION OF CLOUD COMPUTING AS HPC PLATFORM FOR EMBEDDED SYSTEMS",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Prototype of Automated Wheelchair For Physical Disabled Person Using Coherence Algorithm",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Coal mine monitoring using ARM7 and ZigBee",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 19,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design of underground coal mine monitoring system",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "ATM Terminal Security using Fingerprint Recognition",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "ATM Terminal Security using Fingerprint Recognition",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Implementation of Biometric System based on LPC2148",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:13:13.284701+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "fNTG2cAAAAAJ",
+    "fetched_at": "2026-11-04T11:13:13.284701+00:00"
+  },
+  "HCBDWBkAAAAJ": {
+    "name": "Dr. Varsha Turkar",
+    "affiliation": "InfiCorridor Solutions Pvt. Ltd.",
+    "interests": [
+      "Machine Learning",
+      "Remote Sensing",
+      "Image processing"
+    ],
+    "cited_by": 561,
+    "cited_by_5y": 358,
+    "hindex": 13,
+    "hindex5y": 9,
+    "i10index": 19,
+    "i10index5y": 9,
+    "publications": [
+      {
+        "title": "COMPARATIVE ANALYSIS OF USE OF CURVELET AND WAVELET FOR ROBUST INVISIBLE WATERMARKING",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design and Development of ‘e-krishimitra'service provider tool\" ICCUBEA 2017",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Path Finding Algorithm for Robotic Systems using Image Processing",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "INTERNATIONAL JOURNAL OF PURE AND APPLIED RESEARCH IN ENGINEERING AND TECHNOLOGY",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "COMPARATIVE ANALYSIS OF CLASSIFICATION ACCURACY FOR RISAT-1 HYBRID POLARIMETRIC DATA",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Backscattering Properties of Various Features Observed by SIR-C, ENVISAT ASAR and ALOS PALSAR",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Landmark Classification Using Wishart Distribution.",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Survey on Website Evaluation Tools",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Transfer Learning-based Approach for Polsar Image Classification",
+        "year": "2026",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Speech signals as biomarkers: using glottal features for non-invasive COVID-19 testing",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Automated UAV Based Tool for Urban Forest Tree Monitoring Using Machine Learning and Image Processing",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Matsar: A Comprehensive Machine Learning Approach for Polsar Data Processing",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Case Studies in Smart IoT for Air Pollution Control",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Enhancing Land Classification Accuracy: A Comprehensive Study of Sentinel-1 and Sentinel-2 Image Fusion Techniques",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Multilingual voice disorder classification using glottal flow and MFCC-based acoustic analysis",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Multi-frequency analysis of fully polarimetric speckle filter based on image morphology for Land Use classification",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Urban Tree Mapping and Individual Canopy Demarcation for Forest Resource Management Using Very High Resolution UAV Data",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Conceptualization of\" Food for U\": A Mobile Application for Tourists",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Polsarhub: A Large-Scale Repository for Polsar Data",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "PolSARLearn-An Educational Platform for Microwave Remote Sensing",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Framework for the Tree Inventory Management Tool Using Web GIS",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Performance Evaluation of Optimization Functions for Neural Network Classifier Using Decomposed Polsar Images for Mangrove Detection",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Performance Evaluation of Optimization Functions for Neural Network Classifier Using Decomposed Polsar Images",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "SPEECH SIGNALS AS BIOMARKERS: USING GLOTTAL FEATURES FOR NON-INVASIVE COVID-19 TESTING",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Development of Generalized Machine Learning Model to Classify PolSAR Data",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Impact of Using Circular Polarization Correlation Coefficient (CCC) Along with Target Decomposition to Classify Oriented Settlement",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Impact of G4U and 7-component target decomposition on PolSAR image semantic segmentation",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 16,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Development of a generalized model to classify various land covers for ALOS-2 L-Band images using semantic segmentation",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 8,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Water pollution monitoring and decision support system",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 8,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Generative-network based multimedia super-resolution for UAV remote sensing",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "RESLearn: Comprehensive Mobile Application for Remote Sensing Learning",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Semantic segmentation of PolSAR images for various land cover features",
+        "year": "2021",
+        "journal": "Unknown",
+        "citations": 8,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "ASIC design of radix-2, 8-point FFT processor",
+        "year": "2021",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Performance Impact of  Compression on Semantic Segmentation of PolSAR Images",
+        "year": "2021",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "ASIC Design of Radix-2, 8-Point FFT Processor",
+        "year": "2021",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Air pollution prediction using machine learning",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 44,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A novel method to remove speckle from polsar images using morphological operations",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Impact of DFT based speckle reduction filter on classification accuracy of synthetic aperture radar images",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "The effect of hybrid polarimetric descriptors on classification accuracy of various land cover types",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Geographic Information System and Remote Sensing Education in India–Issues & Solutions",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 13,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Intuitive solution for Robot Maze Problem using Image Processing",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Curvelet based watermarking of multispectral images and its effect on classification accuracy",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Land Cover Change Detection for Fully Polarimetric SAR Images",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Role and Potential of E-Krishimitra Tool in Usability Improvement of Agricultural Domain",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Novel approach of Removal of Salt and Pepper Noise Using Morphological Operations",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "e-Krishimitra: Novel Approach with Agriculture Services",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Land-Cover Change Detection Based on Polarimetric Decomposition for POLSAR Images",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Speckle Nosie Reduction of POLSAR data using Non-Parametric Technique",
+        "year": "2019",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of RISAT-1 Data using SVM with Hybrid Polarimetric Descriptors",
+        "year": "2018",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Survey on website evaluation tools",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 19,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Usability improvement with crop disease management as a service",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 15,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Analysis of Digital Media Compatibility with Farmers in Maharashtra and Recommendation of Service Provider Design Framework ‘E-Krishimitra",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 13,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design and development of e-farm with SCHEME",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 10,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Land cover classification for various features using optimum Touzi decomposition parameters",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of terrain using different decomposition techniques along with circular polarization correlation coefficient (CCC)",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Comparative Analysis of Use of Curvelet and Wavelet for Robust Invisible Watermarking for Satellite Images",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Location based solution for Agriculture Domain using GIS",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Land Cover change detection using PolSAR Images",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "The essence of traditional teaching methodology over web-based learning",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "e-Krishimitra:  Service Provider Tool",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Underground transportation and monitoring of freight in intra city networks",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Decoupling renewable energy growth from commodity cycle",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Holistic approach for road network management in urban areas",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Cucumber disease detection using artificial neural network",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 84,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Path finding robot using image processing",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 11,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Polarisation orientation compensation for detection of oriented settlements in PolSAR image",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Change Detection in Urban Area using Satellite Images",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Reading Assistance System for Visually Impaired using Optical Character Recognition",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Maze solving robot using image processing",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 26,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Pancreatic tumor detection using image processing",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 22,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fusion of multi-frequency polarimetric SAR and LISS-3 optical data for classification of various land covers",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of IRS LISS-III image using Artificial Neural Network",
+        "year": "2014",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Comparative analysis of classification accuracy for RISAT-1 compact polarimetric data for various land-covers",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 18,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of RISAT-1 hybrid polarimetric data for various land features",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 10,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of Polarimetric SAR data using Yamaguchi’s Polarization Orientation Compensation (POC) with decision tree classifier for urban area",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of Learning Disable Students using Artificial Neural Network",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Proposed Method for Classification of Learning Disable Students using Artificial Neural Network and Decision Tree",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification accuracy of multi-frequency and multi-polarization SAR images for various land covers",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 81,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Applying coherent and incoherent target decomposition techniques to polarimetric SAR data",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 17,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Effect of different target decomposition techniques on classification accuracy for polarimetric SAR data",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 14,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Comparison of classification accuracy between fully polarimetric and dual-polarization SAR images",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 12,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Melanoma decision support system for dermatologist",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 10,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Technology Systems and Management: First International Conference, ICTSM 2011, Mumbai, India, February 25-27, 2011. Selected Papers",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Analysis of multi-frequency polarimetric SAR data using different classification techniques",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Analysis of multi-frequency SIR-C data over India",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of SIR-C and ALOS PALSAR data using Artificial Neural Network",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Emerging Trends in Technology© 2011 by IJCA Journal Number 14-Article 8 Year of Publication: 2011",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Systems and Management© 2011 by IJCA Journal Number 3-Article 5 Year of Publication: 2011",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Polarimetric SAR image classification by using artificial neural network",
+        "year": "2010",
+        "journal": "Unknown",
+        "citations": 7,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "The effects of different filters on classification accuracy of polarimetric SAR data acquired from SIR-C, and ALOS PALSAR",
+        "year": "2010",
+        "journal": "Unknown",
+        "citations": 3,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Supervised and unsupervised classification of PolSAR images from SIR-C and ALOS/PALSAR using PolSARPro",
+        "year": "2009",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of polarimetric SAR data over wet and arid regions of India",
+        "year": "2009",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Classification of polarimetric synthetic aperture radar images from SIR-C and ALOS PALSAR",
+        "year": "2008",
+        "journal": "Unknown",
+        "citations": 13,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Comparative Study of 2D Transform for DIP",
+        "year": "2007",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "The Effective Methods for Image Transforms to Achieve Better Compression",
+        "year": "2007",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:14:29.486784+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "HCBDWBkAAAAJ",
+    "fetched_at": "2026-11-04T11:14:29.486784+00:00"
+  },
+  "fmCmKBYAAAAJ": {
+    "name": "Prof. Amey Revandkar",
+    "error": true,
+    "scholar_id": "fmCmKBYAAAAJ",
+    "error_message": "Cannot Fetch from Google Scholar."
+  },
+  "KmQhMokAAAAJ": {
+    "name": "Beena Ballal",
+    "affiliation": "Assistant Professor",
+    "interests": [
+      "Digital system design",
+      "Computer Networking"
+    ],
+    "cited_by": 84,
+    "cited_by_5y": 36,
+    "hindex": 3,
+    "hindex5y": 3,
+    "i10index": 2,
+    "i10index5y": 1,
+    "publications": [
+      {
+        "title": "Performance comparison of power delay profile Estimation for MIMO OFDM",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:22:09.965445+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Study of Opportunistic routing in ad-hoc network under different network scenario using ns-2.",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:22:09.965445+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Biometric Authentication Using Finger Knuckle",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:22:09.965445+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Orthogonal frequency division multiplexing and its applications",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 56,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:22:09.965445+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Performance comparison of analog and digital radio over fiber link",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 19,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:22:09.965445+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Digital radio over fiber link to overcome impairments in fiber wireless networks",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:22:09.965445+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Developments in Indoor Optical Fiber Wireless Networks",
+        "year": "2011",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:22:09.965445+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "KmQhMokAAAAJ",
+    "fetched_at": "2026-11-04T11:22:09.965445+00:00"
+  },
+  "CdcaKjoAAAAJ": {
+    "name": "Prof. Harshada Rajale",
+    "error": true,
+    "scholar_id": "CdcaKjoAAAAJ",
+    "error_message": "Cannot Fetch from Google Scholar."
+  },
+  "2Y0VI8wAAAAJ": {
+    "name": "Pravin Patil",
+    "affiliation": "Assistant Professor",
+    "interests": [
+      "Antenna and Microwave Engg"
+    ],
+    "cited_by": 138,
+    "cited_by_5y": 93,
+    "hindex": 5,
+    "hindex5y": 4,
+    "i10index": 4,
+    "i10index5y": 2,
+    "publications": [
+      {
+        "title": "RF-Based Characterization of Soil Fertility Using a Custom Dielectric Cell",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design and Implementation of IOT Based High Frequency LED Dimmer for Multi-Chip LEDs",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "IOT based wearable biomedical monitoring system",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 21,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Wearable biomedical parameter monitoring system: A review",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 8,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Cucumber disease detection using artificial neural network",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 84,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "RF power harvesting system for RFID applications in multiband systems",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 10,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "DGS based microstrip phase shifters",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 11,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "DGS based microstrip phase shifters",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Multivariable control system design for quadruple tank process using quantitative feedback theory (QFT)",
+        "year": "2010",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T11:29:56.626834+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "2Y0VI8wAAAAJ",
+    "fetched_at": "2026-11-04T11:29:56.626834+00:00"
   }
 }
