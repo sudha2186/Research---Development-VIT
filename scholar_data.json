@@ -8884,5 +8884,293 @@
     "scholar_id": "imZoqf8AAAAJ",
     "fetched_live": true,
     "fetched_at": "2026-11-03T16:55:33.818791+00:00"
+  },
+  "ouNRfRUAAAAJ": {
+    "name": "Sheetal Mapare",
+    "affiliation": "Professor  VIT",
+    "interests": [
+      "Wireless Sensor network Sensor Design   Machine Learning  Artificial Intelligence  Deep Learning"
+    ],
+    "cited_by": 48,
+    "cited_by_5y": 29,
+    "hindex": 4,
+    "hindex5y": 2,
+    "i10index": 1,
+    "i10index5y": 1,
+    "publications": [
+      {
+        "title": "Menstrual Pain Soother Using TENS Method",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Fluoride Detection in Drinking Water: A Comparative Review of Traditional Methods and Sensor-Based Technologies",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "EEG Sensor Technology: Principles, Applications, and Future Directions",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Molybdenum Detection in Soil: Timeline of Evolving Detection Strategies for Precision Agriculture",
+        "year": "N/A",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Hyper-Local Two-Stage Machine Learning Framework for Soil Classification and NutrientAware Crop Recommendation",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Development & Validation of a Portable Electrochemical System for Soil NPK Detection in Precision Agriculture",
+        "year": "2025",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Modelling Of Square, Spiral And Pentagonal Electromagnetic Sensor",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Potassium Contamination Detection In Water",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Soil Pollution: A Critical Analysis Of Causes, Ecological Ramifications, And Innovative Remediation Techniques",
+        "year": "2024",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Detection of Phosphate in water by using a planar pentagonal EME sensor for Agriculture Applications",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 2,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Planar Hexagonal Sensor for Phosphate detection",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Diabetes Prediction Using Machine Learning: Enhancing Accuracy Using Hot Encoding Technique",
+        "year": "2023",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Antenna for Industrial, Scientific and Medical: An Overview on Meander Line Antenna Design Methods and Design Challenges",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Design of Microstrip MIMO Antenna for 5G Millimeter Wave Mobile Communication",
+        "year": "2022",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Detection of  Arsenic in Water-A Review on Different Methods",
+        "year": "2020",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Review on detection of arsenic in water",
+        "year": "2018",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Quality Monitoring of Water Through Electromagnetic Sensor",
+        "year": "2018",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Development of a low cost nitrate detection soil sensor",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 6,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Phosphorous Detection In Water Using Electromagnetic Sensor",
+        "year": "2017",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Modelling of Hexagonal Electromagnetic Sensor",
+        "year": "2016",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Effect of Mutual Coupling on Microstrip Antenna",
+        "year": "2015",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "A Review of sensor technology for in-field phosphate monitoring",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 26,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "2013 seventh international conference on sensing technology (ICST)",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 5,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Quadrature band and penta-band MIMO antenna by mutually coupling non-radiating edges",
+        "year": "2013",
+        "journal": "Unknown",
+        "citations": 1,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Nonradiating edges gap-coupled multiple resonator dual and tri-band microstrip antennas",
+        "year": "2012",
+        "journal": "Unknown",
+        "citations": 4,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Modelling  of  multilayer millimeterwave microstrip transmissionline",
+        "year": "2008",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      },
+      {
+        "title": "Feed point selection of a rectangular microstrip antenna for linear and planar arrays",
+        "year": "2008",
+        "journal": "Unknown",
+        "citations": 0,
+        "abstract": "",
+        "url": "",
+        "date_added": "2026-11-04T07:47:15.118564+00:00",
+        "source": "scholar"
+      }
+    ],
+    "scholar_id": "ouNRfRUAAAAJ",
+    "fetched_live": true,
+    "fetched_at": "2026-11-04T07:47:15.118564+00:00"
   }
 }
